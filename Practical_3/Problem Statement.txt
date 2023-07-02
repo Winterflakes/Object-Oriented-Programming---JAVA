@@ -1,0 +1,13 @@
+
+Write a program to implement Inheritance, method overriding and runtime polymorphism.
+
+Consider the following scenario:-
+A college stores the student information as Name, Gender, Department Name, CGPA.
+College also stores the placement details as industry name, annual package and joining letter number.
+If the student is going for higher studies then the details are stored as
+Degree Name, College Name, Admission Letter Number, Competitive exam details (Name, Score).
+If student is going for Entrepreneurship then information stored is Company Name, 
+Sector, Number of employees working in the company and annual turnover.
+
+Create an efficient way to store and display details of all students in an array. 
+(Hint: Use Dynamic Method Dispatch for creating Student array)

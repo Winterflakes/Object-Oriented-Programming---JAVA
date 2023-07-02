@@ -1,0 +1,20 @@
+
+Write a program to implement multiple inheritance.
+
+Consider a class BankAccount with
+data members as account number, aadhar number, owner name, ROI and balance with
+member functions openAccount(), deposit(amount),closeAccount() and
+updateInterest() (this method deposits 4% interest to the account). 
+Create an interface Debitable which has method withdraw().
+
+Derive a class FixedDepositAccount from BankAccount having data member lockInPeriod. 
+Override methods updateInterest() to update Simple Interest, and method closeAccount()
+to charge 5 % for closure of FD Account before lockInPeriod.
+
+Derive a class SavingAccount from class BankAccount and interface Debitable.
+
+The account numbers should be serial numbers of  5 digit and
+automatically assigned on object creation, such that all FDAccounts 
+start with 55 and all Saving account start with 11.
+
+[ROI for Saving Account is 4% and for FD – 1-2yrs-6% ; 2-5yrs-6.5% ; >5yrs- 7%]

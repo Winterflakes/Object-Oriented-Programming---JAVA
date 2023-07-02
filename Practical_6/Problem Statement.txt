@@ -1,0 +1,8 @@
+
+Create a Product class with data members Product ID, Name, Quantity and Price. 
+Write these details to file “product.txt”. 
+Create a class customer with customer id(generated automatically by the system as C001), 
+Name, Product_details(object of product class).
+“Sales.txt” stores the customer details whenever a customer buys a product.
+Update “product.txt” to reflect changes in quantity. 
+Use BufferedReader to take input from user.

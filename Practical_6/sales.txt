@@ -1,0 +1,18 @@
+Customer ID:C001
+Name:Sakshi
+Item Name :Wheat
+Quantity:20
+Total cost:2000
+
+Customer ID:C002
+Name:Soni
+Item Name :Rice
+Quantity:10
+Total cost:1000
+
+Customer ID:C003
+Name:Jalna
+Item Name :Sugar
+Quantity:10
+Total cost:500
+

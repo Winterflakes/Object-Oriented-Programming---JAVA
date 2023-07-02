@@ -1,0 +1,9 @@
+
+A.  Create a class Stack and 
+    implement the functionalities of the Stack Class
+
+B.  Write a program to demonstrate method overloading.
+    Create a class 3DShape and overload a method named volume() 
+    to calculate volume of different geometric shapes like sphere, 
+    cube, cuboid and cylinder. 
+    Create a main() to implement all the methods.

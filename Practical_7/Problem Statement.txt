@@ -1,0 +1,17 @@
+
+A.  Design a generic class MyArray with add() , grow() and swap(). 
+    add() adds the element to the array at last index.  
+    grow() increases the internal size by 1.5 times. 
+    grow() should be called within the add() when the size is exhausted.
+    Declare grow() as private. 
+    swap() swaps elements the array given two indices.
+
+
+B.  Design an application for maintaining a Student Phone Directory. 
+    Student has attributes like roll, name, semester,city, contact, etc. 
+    The phone directory will maintain a sorted collection of Student objects 
+    based on the semester (and roll number, if semester is same),and have functionality 
+    to add Student, remove Student, view city wise Students and view all students. 
+    If a student has missing data, then addition of such student should throw a
+    user defined exception. 
+    Write code to demonstrate the working of all classes.

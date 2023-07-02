@@ -1,0 +1,14 @@
+
+Create an Employee Attendance Management System (EMS).
+
+A.  Design a Class Time with data members as hours, minutes and seconds. 
+    This class provides the functionality to Add and Subtract two time objects. 
+    The result will be returned in a new time object.
+
+B.  Create a class to store Attendance. 
+    The attendance will have Time_IN , Time_OUT along with date information.
+
+C.  Create a class Employee with employee name,  id, name, age, designation, salary, Attendance[]. 
+    a.Provide the functionality to count the number of hours worked in a month.
+    b.Display the number of working hours of an employee for a given date.
+    Write appropriate constructors and display function where required.
