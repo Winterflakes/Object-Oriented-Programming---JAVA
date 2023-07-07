@@ -24,9 +24,12 @@ public class A {
 }
 class Customer {
     String CustomerId; String name;
-    Product[] productDetails = new Product[10]; static int it = 0;
-    static int i = 1; Customer(String name){
-    this.name = name; if(i<=9){
+    Product[] productDetails = new Product[10]; 
+    static int it = 0;
+    static int i = 1; 
+    Customer(String name){
+    this.name = name; 
+    if(i<=9){
 
 
     this.CustomerId = "C00"+Integer.toString(i);
