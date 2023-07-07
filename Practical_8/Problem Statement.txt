@@ -1,0 +1,7 @@
+
+Demonstrate the use of multithreading.
+
+Consider a website publishes live cricket score. 
+The server thread can change the contents of the website
+whereas all the client threads read the score.  
+Write the code to demonstrate all the functionalities.
