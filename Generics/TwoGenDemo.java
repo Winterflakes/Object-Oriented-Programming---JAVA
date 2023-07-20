@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Genericsdemo;
 
-/**
- *
- * @author Kanak
- */
+package Generics;
+
 class TwoGen<T, V> {
 T ob1;
 V ob2;

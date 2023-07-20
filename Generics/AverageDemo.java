@@ -1,5 +1,4 @@
-package Genericsdemo;
-
+package Generics;
 class AverageDemo
 {
     public static void main(String[] args) {

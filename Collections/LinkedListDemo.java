@@ -1,19 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package CollectionDemo;
-
+package Collections;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-/**
- *
- * @author Kanak
- */
 public class LinkedListDemo {
     public static void main(String[] args) {
         
@@ -36,7 +26,7 @@ public class LinkedListDemo {
         
         
         System.out.println(ll);
-        Iterator itr=ll.descendingIterator();
+        Iterator<Integer> itr=ll.descendingIterator();
         //prints in reverse order
         while(itr.hasNext())
         {
@@ -44,7 +34,7 @@ public class LinkedListDemo {
         }
         
         
-        ListIterator litr=ll.listIterator(3);
+        ListIterator<Integer> litr=ll.listIterator(3);
          System.out.println("Printing before index 3");
         while(litr.hasPrevious())
                      System.out.println(litr.previous());

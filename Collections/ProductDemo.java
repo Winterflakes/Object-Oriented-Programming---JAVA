@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package CollectionDemo;
+package Collections;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-/*
+
 class productcompare implements Comparator<product>
 {
 
@@ -30,7 +25,7 @@ class productcompare implements Comparator<product>
         return 0;
     }
     
-}*/
+}
 class product implements Comparable<product>
 {
     private String Name;
@@ -95,48 +90,7 @@ public class ProductDemo {
     
     
     
-/*class product implements Comparable<product>
-{
-    private String Name;
-    private int q;
-    private double p;
 
-    public product(String Name, int q, double p) {
-        this.Name = Name;
-        this.q = q;
-        this.p = p;
-    }
-    void display()
-    {
-        System.out.println("Name :" +Name + "Quantity: " + q + "Price: " + p + " Amount: " + getamount());
-    }
-    double getamount()
-    {
-        return p*q;
-    }
-
-    @Override
-    public int compareTo(product o) {
-            if( q>o.q)return 1;
-            else if(q<o.q) return -1;
-            
-       return 0;
-    
-}
-}
-class comparedemo implements Comparator<product>
-{
-
-    @Override
-    public int compare(product o1, product o2) {
-        if(o1.q>o2.q)
-            return 1;
-        if(o1.q<o2.q)
-            return -1;
-        return 0;
-    }
-}
-*/
 
 
 
