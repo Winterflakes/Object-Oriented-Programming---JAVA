@@ -1,4 +1,4 @@
-package Design_Patterns.Structural;
+package Structural;
 
 // abstraction in bridge pattern 
 abstract class Vehicle {  

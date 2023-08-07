@@ -1,4 +1,4 @@
-package Design_Patterns.Behavioural;
+package Behavioural;
 
 class LeaveRequest {
     private int days;

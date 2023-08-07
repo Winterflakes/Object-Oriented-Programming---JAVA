@@ -6,7 +6,7 @@ class AverageDemo
         genAverage<Integer> intob=new genAverage<>(arr);
         double avg=intob.average();
         System.out.println("Average is :" + avg);
-        String s[]={"a", "b"};
+      
         Double d1[]={1.0,2.0};
         genAverage<Double> dob=new genAverage<>(d1);
         boolean b=intob.isSameAvg(dob);

@@ -4,7 +4,7 @@ public class SwapDemo {
     public static void main(String[] args) {
     //swapelems<Integer> sint=new swapelems<>();
     Integer i1[]={88,99,101,4,89};
-    Integer i2=Integer.valueOf(99);
+  
     swapelems.swap(i1, 2,3);
         System.out.println("i1: " + i1[2] + " i2: " + i1[3]);
     String s1="hello";
