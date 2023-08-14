@@ -29,6 +29,7 @@ public class products {
         catch(IOException e){
             System.out.println(e);
         }
+
         try {
             while ((str = in.readLine()) != null) {
                 String[] ssplit = str.split(" ");
@@ -44,6 +45,7 @@ public class products {
         } catch (IOException e) {
             System.out.println(e);
         }
+
     }
 }
 
