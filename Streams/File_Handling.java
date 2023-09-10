@@ -30,5 +30,16 @@ public class File_Handling {
     catch (IOException e) {
         System.out.println("eror");
     }
+
+    try {
+        FileWriter fw1 = new FileWriter("D:\\Object Oriented Programming - JAVA\\Streams\\f2.txt",true);
+        try (BufferedWriter bw1 = new BufferedWriter(fw1)) {
+            bw1.write("I read the file");
+        }
+    }
+    catch(IOException e){
+        System.out.println("error");
+    }
+
 }
 }
